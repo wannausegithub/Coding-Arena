@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wholeNav{
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+#navLogo{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    /* width: 50%; */
+}
+
+#logo1{
+    height: 90%;
+}
+#logo2{
+    height: 70%;
+}
+
+#navs{
+    margin-right: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    background: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+#gulabJamun{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#rasMalai{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#dodhaBarfi{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button{
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 50px;
+}
+
+#dish{
+    height: 230px;
+    width: 180px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all 1s linear 0s;
+}
+
+#dish:hover{
+    height: 240px;
+    width: 190px;
+
+}
+
+footer{
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+}
+
